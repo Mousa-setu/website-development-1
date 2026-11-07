@@ -1,0 +1,237 @@
+.nav1 {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+    font-size: 20px;
+    background: rgb(9, 9, 19);
+}
+
+.navigation li a {
+    color: white;
+    text-decoration: none;
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 12px;
+    background: rgb(16, 18, 37);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.45);
+    padding: 15px 20px;
+    display: inline-block;
+}
+
+.navigation ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    padding: 15px 40px;
+    margin: 0;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+.body{
+    background: rgb(9, 9, 19);
+    background-image: url("../images/background.svg");
+    background-repeat: no-repeat; background-size: cover; background-attachment: fixed;
+}
+.navigation li.li1 {
+    margin-right: auto;
+}
+
+.navigation li.li1 a {
+    color: aqua;
+}
+table {
+    border-spacing: 80px;
+    color: white;
+}
+h1{
+    font-size: 80px;
+}
+p{
+    font-size: 20px;
+}
+
+.img1 {
+    width: 220px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 10px solid rgba(255,255,255,0.12);
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 0;
+    background: rgb(16, 18, 37);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.45);
+}
+.p1{
+    color:aqua;
+    font-size: 30px;
+    margin-bottom: 5px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.context{
+    color: white;
+    border-radius: 12px;
+    border: 1.5px solid rgba(255, 255, 255, 0.12);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.45);
+    padding: 20px;
+    margin: 30px auto;
+    width: 60%;
+    text-align: center;
+}
+
+.context ul{
+    font-size: 18px;
+    line-height: 2;
+    display: inline-block;
+    text-align: left;
+}
+.context ol{
+    font-size: 18px;
+    line-height: 2;
+    display: inline-block;
+    text-align: left;
+}
+.context p{
+    font-size: 20px;
+}
+.about{
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.about h1 {
+    margin: 5px;
+}
+
+.about .p1 {
+    margin-bottom: 25px;
+}
+
+.about .p2 {
+    margin-top: 5px;
+}
+.informtion{
+    color: white;
+    border-radius: 12px;
+    border: 1.5px solid rgba(255, 255, 255, 0.12);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.45);
+    padding: 25px;
+    max-width: 850px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+}
+.text1{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 250px;
+    min-width: 250px;
+}
+.exp{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 100%;
+    width: 100%;
+}
+.h2{
+    color:aqua;
+}
+.table1 {
+    width: 80%;
+    max-width: 800px;
+    margin: 30px auto;
+    color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.45);
+}
+.table1 table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table1 th {
+    padding: 16px;
+    text-align: left;
+    color: white;
+}
+
+.table1 td {
+    padding: 15px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+.link{
+    color: white;
+    border-radius: 12px;
+    border: 1.5px solid rgba(255, 255, 255, 0.12);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.45);
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+#p3{
+    font-size: 50px;
+    border: 1.5px solid rgba(255, 255, 255, 0.12);
+    padding: 15px;
+}
+#p4{
+    font-size: 50px;
+    border: 1.5px solid rgba(255, 255, 255, 0.12);
+    padding: 15px;
+}
+#p5{
+    font-size: 50px;
+    border: 1.5px solid rgba(255, 255, 255, 0.12);
+    padding: 15px;
+}
+.t1{
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+a:link{
+    color: aqua;
+}
+a:visited{
+    color: white;
+}
+a:hover{
+    color: white;
+}
+a:active{
+    color: aqua;
+}
+.navigation li a:hover{
+    color: aqua;
+}
+figure{
+    margin: 0;
+}
+figcaption{
+    color: aqua;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.table1 tr:nth-of-type(odd){
+    background: rgb(16, 18, 37);
+}
+.table1 tr:nth-of-type(even){
+    background: rgb(9, 9, 19);
+}
+.table1 tr:hover{
+    background: rgb(22, 32, 52);
+}
